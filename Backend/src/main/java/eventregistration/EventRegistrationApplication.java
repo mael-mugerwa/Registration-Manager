@@ -11,18 +11,12 @@ import view.ComputationPage;
 public class EventRegistrationApplication {
 
 	public static void main(String[] args) {
-		//SpringApplication.run(EventRegistrationApplication.class, args);
-		// start UI
-        java.awt.EventQueue.invokeLater(new Runnable() {
-            public void run() {
-                new ComputationPage().setVisible(true);
-            }
-        });
+		SpringApplication.run(EventRegistrationApplication.class, args);
 	}
-/*
+
   @RequestMapping("/")
   public String greeting(){
     return "Hello world!";
   }
-  */
+ 
 }
