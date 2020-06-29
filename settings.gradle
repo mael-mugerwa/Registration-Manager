@@ -9,4 +9,4 @@
 
 rootProject.name = 'Registration-Manager'
 
-include ':EventRegistration-Backend'
+include ':Backend'

@@ -29,5 +29,5 @@ dependencies {
 }
 
 task stage () {
-    dependsOn ':EventRegistration-Backend:assemble'
+    dependsOn ':Backend:assemble'
 }
